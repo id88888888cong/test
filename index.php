@@ -1,3 +1,8 @@
 <?php
-echo 'a0';
+$a=$_GET['a'];
+if($a){
+    echo 'a';
+}else{
+    echo 'b';
+}
 ?>
